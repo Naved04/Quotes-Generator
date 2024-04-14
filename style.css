@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #a2d2ff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    padding: 20px;
+}
+
+button {
+    border: none;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    /* width: auto;
+    height: auto; */
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #3a5a40;
+    background-color: #fdf0d5;
+}
+
+.para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 20px 50px 0px 50px;
+}
+
+#author {
+    text-align: right; /* Align author to the right */
+}
